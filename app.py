@@ -1,5 +1,4 @@
 """Gesture AI: Flask login + CSV inference using a real-data trained gesture model."""
-import io
 import os
 import secrets
 import sqlite3
@@ -7,18 +6,17 @@ from pathlib import Path
 from functools import wraps
 
 import joblib
-import numpy as np
-import pandas as pd
 from flask import Flask, jsonify, render_template, request, session, g
 from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.exceptions import RequestEntityTooLarge
 from ml import features, MODEL_KEYS, KEY_TO_LABEL
+from sensor_input import read_accelerometer, MAX_UPLOAD_BYTES, ALLOWED_EXTENSIONS
 
 ROOT = Path(__file__).resolve().parent
 app = Flask(__name__)
 app.config.update(
     SECRET_KEY=os.environ.get('SECRET_KEY') or secrets.token_hex(32),
-    MAX_CONTENT_LENGTH=2 * 1024 * 1024,
+    MAX_CONTENT_LENGTH=MAX_UPLOAD_BYTES,
     SESSION_COOKIE_HTTPONLY=True,
     SESSION_COOKIE_SAMESITE='Lax',
     SESSION_COOKIE_SECURE=os.environ.get('COOKIE_SECURE', '0') == '1',
@@ -65,7 +63,7 @@ def check_csrf():
 
 @app.errorhandler(RequestEntityTooLarge)
 def too_large(e):
-    return jsonify(error='Tệp lớn hơn 2 MB.'), 413
+    return jsonify(error='Tệp lớn hơn 5 MB.'), 413
 
 @app.get('/')
 def index():
@@ -118,32 +116,11 @@ def predict():
         return jsonify(error='Chưa có model dữ liệu thật. Hãy chạy: python train_real_model.py rồi deploy lại.'), 503
     uploaded = request.files.get('file')
     if uploaded is None or not uploaded.filename:
-        return jsonify(error='Vui lòng chọn file CSV hoặc TXT.'), 400
-    if Path(uploaded.filename).suffix.lower() not in {'.csv','.txt'}:
-        return jsonify(error='Chỉ hỗ trợ CSV hoặc TXT.'), 400
-    raw_bytes = uploaded.read()
-    if len(raw_bytes) > 2 * 1024 * 1024:
-        return jsonify(error='File vượt quá 2 MB.'), 413
+        return jsonify(error='Vui lòng chọn file CSV, TXT hoặc ZIP Sensor Logger.'), 400
+    if Path(uploaded.filename).suffix.lower() not in ALLOWED_EXTENSIONS:
+        return jsonify(error='Chỉ hỗ trợ CSV, TXT hoặc ZIP Sensor Logger.'), 400
     try:
-        content = raw_bytes.decode('utf-8-sig')
-        # supports comma, semicolon, whitespace/tab formats
-        frame = pd.read_csv(io.StringIO(content), sep=None, engine='python')
-        frame.columns = [str(c).strip().lower() for c in frame.columns]
-        groups = [('ax','ay','az'),('acc_x','acc_y','acc_z'),('x','y','z'),('accelerationx','accelerationy','accelerationz'),('acceleration_x','acceleration_y','acceleration_z')]
-        found = next((list(names) for names in groups if all(c in frame.columns for c in names)), None)
-        if found is None:
-            # No header: try read as 3 numeric columns
-            frame = pd.read_csv(io.StringIO(content), sep=r'[\s,;]+', engine='python', header=None)
-            if frame.shape[1] < 3:
-                raise ValueError('Cần ba cột ax, ay, az (hoặc x, y, z).')
-            frame = frame.iloc[:, :3]
-        else:
-            frame = frame[found]
-        if not 20 <= len(frame) <= 10000:
-            raise ValueError('Số dòng dữ liệu cần từ 20 đến 10.000.')
-        values = frame.apply(pd.to_numeric, errors='raise').to_numpy(dtype=float)
-        if not np.isfinite(values).all():
-            raise ValueError('Dữ liệu có NaN/Inf.')
+        values, data_source = read_accelerometer(uploaded.read(), uploaded.filename)
         probabilities = MODEL.predict_proba(features(values).reshape(1,-1))[0]
         predictions = sorted(({
             'key': str(c), 'label': KEY_TO_LABEL[str(c)],
@@ -153,10 +130,14 @@ def predict():
             prediction=predictions[0]['label'], gesture_key=predictions[0]['key'],
             confidence=predictions[0]['probability'], probabilities=predictions,
             rows=len(values), model_name=INFO['model_name'], real_data=True,
+            input_format=data_source, gyro_used_by_model=False,
             caveat='Lớp xoay vòng tay là cử chỉ vẽ vòng trong không gian, không phải đo riêng xoay cổ tay.'
         )
-    except (ValueError, TypeError, pd.errors.ParserError, UnicodeDecodeError) as error:
+    except (ValueError, TypeError) as error:
         return jsonify(error=f'Dữ liệu không hợp lệ: {error}'), 400
+    except Exception:
+        app.logger.exception('Gesture inference failed')
+        return jsonify(error='Không thể chạy mô hình. Kiểm tra log trên Render để biết lỗi chi tiết.'), 500
 
 if __name__ == '__main__':
     app.run(debug=os.environ.get('FLASK_DEBUG') == '1', host='0.0.0.0', port=int(os.environ.get('PORT', '5000')))
