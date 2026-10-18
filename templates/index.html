@@ -48,7 +48,6 @@
         <div class="progress-track"><div id="progressBar"></div></div>
         <div class="state-detail" id="stateDetail"><span class="small-check">i</span><span>{{ 'Đăng nhập, chọn CSV rồi dự đoán.' if model_ready else 'Hãy chạy train_real_model.py trước khi deploy.' }}</span></div>
       </div>
-      <p class="model-source" id="modelSource">Backbone: <strong>{{ model_name }}</strong><br><span>Dữ liệu huấn luyện: UWaveGestureLibrary (thật)</span><br><span>Accuracy test độc lập: {% if test_accuracy is not none %}{{ test_accuracy }}%{% else %}Chưa có{% endif %}</span></p>
       <div class="model-spacer"></div>
       <button id="predictBtn" class="predict-btn" {{ 'disabled' if not model_ready else '' }}><svg viewBox="0 0 24 24"><path d="m8 4 12 8-12 8V4Z" fill="white" stroke="none"/></svg><span>Chạy dự đoán</span></button>
       <p id="message" class="message" aria-live="polite"></p>
@@ -63,8 +62,6 @@
       </div>
       <h3 class="alternatives-title">Xác suất 5 cử chỉ</h3>
       <div id="probabilities" class="probabilities"><p class="result-placeholder">Tải file rồi nhấn Chạy dự đoán.</p></div>
-      <p class="demo-note">Model huấn luyện từ dữ liệu gia tốc thật; độ chính xác với iPhone khác có thể thay đổi. “Xoay vòng tay” là động tác vẽ vòng, không phải đo riêng khớp cổ tay.</p>
-    </section>
   </main>
 
   <div id="authOverlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="authTitle">
