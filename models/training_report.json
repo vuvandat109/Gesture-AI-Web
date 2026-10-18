@@ -1,0 +1,21 @@
+{
+  "trained_from": "REAL UWaveGestureLibrary multivariate accelerometer recordings",
+  "source_url": "https://huggingface.co/datasets/thuml/Time-Series-Library/tree/main/UWaveGestureLibrary",
+  "original_classes": {
+    "3": "right",
+    "4": "left",
+    "5": "up",
+    "6": "down",
+    "7": "circle"
+  },
+  "model_name": "SVM RBF",
+  "validation_accuracies": {
+    "SVM RBF": 1.0,
+    "Logistic Regression": 1.0
+  },
+  "heldout_test_accuracy": 0.88,
+  "heldout_test_macro_f1": 0.8811887271657387,
+  "train_samples": 75,
+  "test_samples": 200,
+  "note": "Independent UEA test split; may not transfer to a different phone orientation. Circle class is NOT isolated wrist twisting."
+}

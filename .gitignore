@@ -1,7 +1,15 @@
 __pycache__/
 *.pyc
 .venv/
+venv/
 .env
+.env.*
+!.env.example
 instance/
 *.sqlite
 *.db
+# The original data's upstream license restricts redistribution.
+data_external/
+samples_real/
+# Old synthetic demo model is NOT the deployed real-data model.
+models/logistic_gesture_demo.joblib

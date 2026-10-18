@@ -1,4 +1,4 @@
-"""Gesture AI demo: Flask site, local accounts, CSV inference, synthetic Logistic Regression."""
+"""Gesture AI: Flask login + CSV inference using a real-data trained gesture model."""
 import io
 import os
 import secrets
@@ -12,7 +12,7 @@ import pandas as pd
 from flask import Flask, jsonify, render_template, request, session, g
 from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.exceptions import RequestEntityTooLarge
-from ml import features
+from ml import features, MODEL_KEYS, KEY_TO_LABEL
 
 ROOT = Path(__file__).resolve().parent
 app = Flask(__name__)
@@ -28,9 +28,15 @@ DB.parent.mkdir(parents=True, exist_ok=True)
 with sqlite3.connect(DB) as connection:
     connection.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT NOT NULL UNIQUE, password_hash TEXT NOT NULL)')
 
-bundle = joblib.load(ROOT / 'models' / 'logistic_gesture_demo.joblib')
-MODEL = bundle['model']
-LABELS = bundle['labels']
+MODEL_PATH = ROOT / 'models' / 'gesture_real_v1.joblib'
+# Never silently fall back to the old synthetic model.
+if MODEL_PATH.is_file():
+    bundle = joblib.load(MODEL_PATH)
+    MODEL = bundle['model']
+    INFO = bundle['info']
+else:
+    MODEL = None
+    INFO = {'model_name': 'Chưa huấn luyện', 'trained_from': 'NONE'}
 
 
 def db():
@@ -63,11 +69,11 @@ def too_large(e):
 
 @app.get('/')
 def index():
-    return render_template('index.html', csrf_token=token(), username=session.get('username'))
+    return render_template('index.html', csrf_token=token(), username=session.get('username'), model_name=INFO['model_name'], model_ready=MODEL is not None, test_accuracy=round(INFO.get('heldout_test_accuracy', 0)*100, 1) if MODEL is not None else None)
 
 @app.get('/api/health')
 def health():
-    return jsonify(status='ok', model='Logistic Regression (synthetic demo)')
+    return jsonify(status='ok', model_ready=MODEL is not None, model=INFO['model_name'], training_source=INFO['trained_from'], heldout_test_accuracy=INFO.get('heldout_test_accuracy'))
 
 @app.post('/api/register')
 def register():
@@ -108,6 +114,8 @@ def logout():
 def predict():
     if not session.get('username'):
         return jsonify(error='Bạn cần đăng nhập để chạy dự đoán.'), 401
+    if MODEL is None:
+        return jsonify(error='Chưa có model dữ liệu thật. Hãy chạy: python train_real_model.py rồi deploy lại.'), 503
     uploaded = request.files.get('file')
     if uploaded is None or not uploaded.filename:
         return jsonify(error='Vui lòng chọn file CSV hoặc TXT.'), 400
@@ -121,7 +129,7 @@ def predict():
         # supports comma, semicolon, whitespace/tab formats
         frame = pd.read_csv(io.StringIO(content), sep=None, engine='python')
         frame.columns = [str(c).strip().lower() for c in frame.columns]
-        groups = [('ax','ay','az'),('acc_x','acc_y','acc_z'),('x','y','z')]
+        groups = [('ax','ay','az'),('acc_x','acc_y','acc_z'),('x','y','z'),('accelerationx','accelerationy','accelerationz'),('acceleration_x','acceleration_y','acceleration_z')]
         found = next((list(names) for names in groups if all(c in frame.columns for c in names)), None)
         if found is None:
             # No header: try read as 3 numeric columns
@@ -137,8 +145,16 @@ def predict():
         if not np.isfinite(values).all():
             raise ValueError('Dữ liệu có NaN/Inf.')
         probabilities = MODEL.predict_proba(features(values).reshape(1,-1))[0]
-        predictions = sorted(({'label': LABELS[int(c)], 'probability': round(float(p)*100, 2)} for c,p in zip(MODEL.classes_, probabilities)), key=lambda x:-x['probability'])
-        return jsonify(prediction=predictions[0]['label'], confidence=predictions[0]['probability'], probabilities=predictions, rows=len(values), demo=True)
+        predictions = sorted(({
+            'key': str(c), 'label': KEY_TO_LABEL[str(c)],
+            'probability': round(float(p)*100, 2)
+        } for c, p in zip(MODEL.classes_, probabilities)), key=lambda x: -x['probability'])
+        return jsonify(
+            prediction=predictions[0]['label'], gesture_key=predictions[0]['key'],
+            confidence=predictions[0]['probability'], probabilities=predictions,
+            rows=len(values), model_name=INFO['model_name'], real_data=True,
+            caveat='Lớp xoay vòng tay là cử chỉ vẽ vòng trong không gian, không phải đo riêng xoay cổ tay.'
+        )
     except (ValueError, TypeError, pd.errors.ParserError, UnicodeDecodeError) as error:
         return jsonify(error=f'Dữ liệu không hợp lệ: {error}'), 400
 
