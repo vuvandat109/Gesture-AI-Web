@@ -1,3 +1,11 @@
+# Cập nhật Sensor Logger 26.000 mẫu
+
+Mô hình hiện tại dùng 6 kênh Sensor Logger; xem [hướng dẫn huấn luyện](SENSOR_LOGGER_TRAINING.md) và `models/training_report.json` để biết phương pháp, kết quả và giới hạn. Giao diện giữ nguyên.
+
+---
+
+## Tài liệu mô hình UWave trước đây
+
 # Gesture AI — Nhận diện 5 cử chỉ bằng model huấn luyện trên dữ liệu thật
 
 Website Flask theo thiết kế ba cột: **Dữ liệu đầu vào → Mô hình AI → Kết quả**. Có đăng ký/đăng nhập, tải CSV/TXT và 5 hình minh họa bàn tay thay đổi theo dự đoán.

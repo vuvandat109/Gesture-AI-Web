@@ -11,6 +11,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.exceptions import RequestEntityTooLarge
 from ml import features, MODEL_KEYS, KEY_TO_LABEL
 from sensor_input import read_accelerometer, MAX_UPLOAD_BYTES, ALLOWED_EXTENSIONS
+from sensor_model import read_motion, motion_features
 
 ROOT = Path(__file__).resolve().parent
 app = Flask(__name__)
@@ -120,18 +121,22 @@ def predict():
     if Path(uploaded.filename).suffix.lower() not in ALLOWED_EXTENSIONS:
         return jsonify(error='Chỉ hỗ trợ CSV, TXT hoặc ZIP Sensor Logger.'), 400
     try:
-        values, data_source = read_accelerometer(uploaded.read(), uploaded.filename)
-        probabilities = MODEL.predict_proba(features(values).reshape(1,-1))[0]
+        sensor6 = INFO.get('feature_version') == 'sensor6_v1'
+        reader = read_motion if sensor6 else read_accelerometer
+        extractor = motion_features if sensor6 else features
+        labels = bundle.get('labels', KEY_TO_LABEL)
+        values, data_source = reader(uploaded.read(), uploaded.filename)
+        probabilities = MODEL.predict_proba(extractor(values).reshape(1,-1))[0]
         predictions = sorted(({
-            'key': str(c), 'label': KEY_TO_LABEL[str(c)],
+            'key': str(c), 'label': labels[str(c)],
             'probability': round(float(p)*100, 2)
         } for c, p in zip(MODEL.classes_, probabilities)), key=lambda x: -x['probability'])
         return jsonify(
             prediction=predictions[0]['label'], gesture_key=predictions[0]['key'],
             confidence=predictions[0]['probability'], probabilities=predictions,
             rows=len(values), model_name=INFO['model_name'], real_data=True,
-            input_format=data_source, gyro_used_by_model=False,
-            caveat='Lớp xoay vòng tay là cử chỉ vẽ vòng trong không gian, không phải đo riêng xoay cổ tay.'
+            input_format=data_source, gyro_used_by_model=sensor6,
+            caveat=INFO.get('evaluation', 'Khác biệt thiết bị có thể ảnh hưởng dự đoán.')
         )
     except (ValueError, TypeError) as error:
         return jsonify(error=f'Dữ liệu không hợp lệ: {error}'), 400

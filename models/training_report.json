@@ -1,21 +1,64 @@
 {
-  "trained_from": "REAL UWaveGestureLibrary multivariate accelerometer recordings",
-  "source_url": "https://huggingface.co/datasets/thuml/Time-Series-Library/tree/main/UWaveGestureLibrary",
-  "original_classes": {
-    "3": "right",
-    "4": "left",
-    "5": "up",
-    "6": "down",
-    "7": "circle"
-  },
-  "model_name": "SVM RBF",
+  "model_name": "Sensor Logger PCA + Logistic Regression (6 channels)",
+  "trained_from": "Sensor Logger iPhone: 26,000 processed/augmented windows",
+  "feature_version": "sensor6_v1",
+  "pretraining_samples": 20800,
+  "labeled_samples": 5200,
+  "train_samples": 4160,
+  "test_samples": 1040,
   "validation_accuracies": {
-    "SVM RBF": 1.0,
-    "Logistic Regression": 1.0
+    "0.1": 0.9971153846153846,
+    "1.0": 0.9971153846153846,
+    "10.0": 0.9961538461538462
   },
-  "heldout_test_accuracy": 0.88,
-  "heldout_test_macro_f1": 0.8811887271657387,
-  "train_samples": 75,
-  "test_samples": 200,
-  "note": "Independent UEA test split; may not transfer to a different phone orientation. Circle class is NOT isolated wrist twisting."
+  "heldout_test_accuracy": 0.9990384615384615,
+  "heldout_test_macro_f1": 0.9990384559822022,
+  "test_confusion_matrix": [
+    [
+      207,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      208,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      208,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      208,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      208
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "up",
+    "down",
+    "left",
+    "right",
+    "circle"
+  ],
+  "selected_C": 0.1,
+  "evaluation": "Group split by augmentation ancestor; NOT independent user/session evaluation. Original recording IDs unavailable; cross-partition ancestry cannot be fully verified.",
+  "method": "PCA representation fitted only on 20,800 unlabeled windows; logistic classifier trained only on labeled training groups. Not TF-C or DINOv3.",
+  "data_sha256": "8ab26bb44bd2e9d88cae22f839ddedae434222391e679a48fff253c8ea749f01"
 }
