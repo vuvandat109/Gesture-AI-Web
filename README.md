@@ -1,5 +1,7 @@
 # Cập nhật Sensor Logger 26.000 mẫu
 
+Huấn luyện lại ngày 27/10/2026 từ bản ZIP mới đã tăng nhiễu: accuracy test **49,23%**, macro-F1 **49,31%** trên 1.040 mẫu. Nguồn và giới hạn đánh giá được ghi trong [hướng dẫn huấn luyện](SENSOR_LOGGER_TRAINING.md).
+
 Mô hình hiện tại dùng 6 kênh Sensor Logger; xem [hướng dẫn huấn luyện](SENSOR_LOGGER_TRAINING.md) và `models/training_report.json` để biết phương pháp, kết quả và giới hạn. Giao diện giữ nguyên.
 
 ---
