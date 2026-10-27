@@ -1,0 +1,44 @@
+[
+  {
+    "id": "AC01",
+    "condition": "Controlled high-confidence output (mock)",
+    "expected": "HTTP 200; prediction shown with confidence 95%",
+    "actual": "HTTP 200, confidence=95.0",
+    "status": "PASS"
+  },
+  {
+    "id": "AC02",
+    "condition": "Controlled confidence 40% (mock); proposed threshold 80%",
+    "expected": "UNCERTAIN state and human-review warning",
+    "actual": "HTTP 200; status=None; confidence=40.0",
+    "status": "FAIL"
+  },
+  {
+    "id": "AC03",
+    "condition": "Injected TimeoutError; this does not test an actual time budget",
+    "expected": "FALLBACK state and usable alternative/retry guidance",
+    "actual": "HTTP 500; no FALLBACK state",
+    "status": "FAIL"
+  },
+  {
+    "id": "AC04",
+    "condition": "Unsupported input file",
+    "expected": "HTTP 400 and model not called",
+    "actual": "HTTP 400; model_called=False",
+    "status": "PASS"
+  },
+  {
+    "id": "AC05",
+    "condition": "Review and save prediction",
+    "expected": "User confirms/corrects prediction before persistent save",
+    "actual": "No prediction review/save feature in current UI/routes (out of original gesture-demo scope)",
+    "status": "FAIL"
+  },
+  {
+    "id": "AC06",
+    "condition": "Traceability",
+    "expected": "Version identifier in inference response",
+    "actual": "model_name exists; immutable model_version absent",
+    "status": "FAIL"
+  }
+]

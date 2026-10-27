@@ -3,13 +3,14 @@ import os
 import secrets
 import sqlite3
 from pathlib import Path
-from functools import wraps
 
 import joblib
-from flask import Flask, jsonify, render_template, request, session, g
+from flask import Flask, jsonify, render_template, request, session
 from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.exceptions import RequestEntityTooLarge
 from ml import features, MODEL_KEYS, KEY_TO_LABEL
+from account_store import AccountStore, DuplicateUsername
+import psycopg
 from sensor_input import read_accelerometer, MAX_UPLOAD_BYTES, ALLOWED_EXTENSIONS
 from sensor_model import read_motion, motion_features
 
@@ -22,10 +23,12 @@ app.config.update(
     SESSION_COOKIE_SAMESITE='Lax',
     SESSION_COOKIE_SECURE=os.environ.get('COOKIE_SECURE', '0') == '1',
 )
-DB = Path(os.environ.get('DATABASE_PATH', str(ROOT / 'instance' / 'users.db')))
-DB.parent.mkdir(parents=True, exist_ok=True)
-with sqlite3.connect(DB) as connection:
-    connection.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT NOT NULL UNIQUE, password_hash TEXT NOT NULL)')
+accounts = AccountStore()
+accounts.initialize()
+if os.environ.get('RENDER') and accounts.backend == 'sqlite':
+    app.logger.warning('DATABASE_URL missing: accounts are on ephemeral SQLite. Configure PostgreSQL for persistence.')
+if os.environ.get('RENDER') and not os.environ.get('SECRET_KEY'):
+    app.logger.warning('Set a stable SECRET_KEY for sessions across workers and restarts.')
 
 MODEL_PATH = ROOT / 'models' / 'gesture_real_v1.joblib'
 # Never silently fall back to the old synthetic model.
@@ -36,19 +39,6 @@ if MODEL_PATH.is_file():
 else:
     MODEL = None
     INFO = {'model_name': 'Chưa huấn luyện', 'trained_from': 'NONE'}
-
-
-def db():
-    if 'db' not in g:
-        g.db = sqlite3.connect(DB, timeout=10)
-        g.db.row_factory = sqlite3.Row
-    return g.db
-
-@app.teardown_appcontext
-def close_db(error):
-    conn = g.pop('db', None)
-    if conn is not None:
-        conn.close()
 
 
 def token():
@@ -62,42 +52,56 @@ def check_csrf():
         if not secrets.compare_digest(str(request.headers.get('X-CSRF-Token', '')), str(token())):
             return jsonify(error='Phiên gửi dữ liệu không hợp lệ, vui lòng tải lại trang.'), 403
 
+@app.errorhandler(psycopg.OperationalError)
+@app.errorhandler(sqlite3.OperationalError)
+def database_unavailable(error):
+    app.logger.error('Account storage temporarily unavailable')
+    return jsonify(error='Không thể kết nối nơi lưu tài khoản. Vui lòng thử lại sau.'), 503
+
 @app.errorhandler(RequestEntityTooLarge)
 def too_large(e):
     return jsonify(error='Tệp lớn hơn 5 MB.'), 413
 
 @app.get('/')
 def index():
-    return render_template('index.html', csrf_token=token(), username=session.get('username'), model_name=INFO['model_name'], model_ready=MODEL is not None, test_accuracy=round(INFO.get('heldout_test_accuracy', 0)*100, 1) if MODEL is not None else None)
+    return render_template('index.html', csrf_token=token(), username=session.get('username'), model_name=INFO['model_name'], model_ready=MODEL is not None, account_backend=accounts.backend, test_accuracy=round(INFO.get('heldout_test_accuracy', 0)*100, 1) if MODEL is not None else None)
 
 @app.get('/api/health')
 def health():
-    return jsonify(status='ok', model_ready=MODEL is not None, model=INFO['model_name'], training_source=INFO['trained_from'], heldout_test_accuracy=INFO.get('heldout_test_accuracy'))
+    return jsonify(status='ok', account_storage=accounts.backend, model_ready=MODEL is not None, model=INFO['model_name'], training_source=INFO['trained_from'], heldout_test_accuracy=INFO.get('heldout_test_accuracy'))
 
 @app.post('/api/register')
 def register():
-    data = request.get_json(silent=True) or {}
-    username = str(data.get('username', '')).strip()
-    password = str(data.get('password', ''))
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        return jsonify(error='Dữ liệu gửi lên phải là JSON object.'), 400
+    if not isinstance(data.get('username'), str) or not isinstance(data.get('password'), str):
+        return jsonify(error='Tên tài khoản và mật khẩu phải là chuỗi ký tự.'), 400
+    username = data['username'].strip()
+    password = data['password']
     if not (3 <= len(username) <= 32 and username.replace('_','').isalnum()):
         return jsonify(error='Tên tài khoản phải dài 3–32 ký tự, chỉ dùng chữ, số hoặc dấu gạch dưới.'), 400
     if not 8 <= len(password) <= 128:
-        return jsonify(error='Mật khẩu phải có ít nhất 8 ký tự.'), 400
+        return jsonify(error='Mật khẩu phải dài 8–128 ký tự.'), 400
     try:
-        with db():
-            db().execute('INSERT INTO users (username, password_hash) VALUES (?, ?)', (username, generate_password_hash(password)))
-    except sqlite3.IntegrityError:
+        accounts.create(username, generate_password_hash(password))
+    except DuplicateUsername:
         return jsonify(error='Tên tài khoản đã được sử dụng.'), 409
     session.clear()
-    session.update(username=username, _csrf_token=secrets.token_urlsafe(32))
-    return jsonify(username=username, csrf=session['_csrf_token'])
+    return jsonify(registered=True, username=username, next='login', csrf=token()), 201
 
 @app.post('/api/login')
 def login():
-    data = request.get_json(silent=True) or {}
-    username = str(data.get('username','')).strip()
-    password = str(data.get('password',''))
-    record = db().execute('SELECT * FROM users WHERE username = ?', (username,)).fetchone()
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        return jsonify(error='Dữ liệu gửi lên phải là JSON object.'), 400
+    if not isinstance(data.get('username'), str) or not isinstance(data.get('password'), str):
+        return jsonify(error='Tên tài khoản và mật khẩu phải là chuỗi ký tự.'), 400
+    username = data['username'].strip()
+    password = data['password']
+    if len(username) > 32 or not 8 <= len(password) <= 128:
+        return jsonify(error='Sai tên đăng nhập hoặc mật khẩu.'), 401
+    record = accounts.find(username)
     if not record or not check_password_hash(record['password_hash'], password):
         return jsonify(error='Sai tên đăng nhập hoặc mật khẩu.'), 401
     session.clear()

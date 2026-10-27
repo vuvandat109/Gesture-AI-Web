@@ -1,0 +1,137 @@
+[
+  {
+    "id": "test_F01_register_requires_separate_login",
+    "description": "Register valid account -> 201, next=login, no authenticated session.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F02_login_success",
+    "description": "Register then log in with the same credentials -> authenticated session.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F03_duplicate_username",
+    "description": "Register the same username twice -> 409.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F04_username_boundaries",
+    "description": "Username lengths 2/33 rejected; 3/32 accepted.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F05_password_boundaries",
+    "description": "Password lengths 7/129 rejected; 8/128 accepted.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F06_invalid_username",
+    "description": "Username containing spaces or SQL syntax is rejected.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F07_wrong_password",
+    "description": "Wrong login password -> 401.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F08_csrf_required",
+    "description": "Missing CSRF header -> 403.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F09_bad_json",
+    "description": "JSON array/null/non-string credentials -> 400 rather than 500.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F10_logout",
+    "description": "Logout clears authentication; prediction returns 401.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F11_password_is_hashed",
+    "description": "Stored password is a verifiable hash, never plaintext.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F12_persists_across_process_restart",
+    "description": "A fresh Python process reads the registered hash from the same SQLite file.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F13_valid_prediction",
+    "description": "Valid 178x6 CSV -> 200 with five probabilities and finite confidence.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F14_no_file",
+    "description": "Authenticated upload without file -> 400.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F15_bad_extension",
+    "description": "Executable extension -> 400 without invoking model.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F16_empty_file",
+    "description": "Empty CSV -> 400.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F17_missing_channels",
+    "description": "CSV missing gyroscope columns -> 400.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F18_rows_boundaries",
+    "description": "19/10001 rows rejected; 20/10000 rows accepted.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F19_nan",
+    "description": "Non-finite sensor value -> 400.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F20_upload_over_limit",
+    "description": "Multipart request larger than 5 MiB -> 413.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F21_invalid_zip",
+    "description": "Invalid ZIP bytes -> 400.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F22_model_unavailable",
+    "description": "Absent model -> clear 503 response.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F23_database_outage",
+    "description": "Database outage returns 503 without exposing credentials.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_F24_storage_configuration",
+    "description": "Health reports the actual account storage backend.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_P01_parameterized_insert",
+    "description": "Postgres adapter sends bound parameters and uses connection context transaction.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_P02_no_silent_sqlite_fallback",
+    "description": "A configured PostgreSQL outage must not create a local SQLite database.",
+    "status": "PASS"
+  },
+  {
+    "id": "test_P03_duplicate",
+    "description": "Postgres unique-constraint violation maps to DuplicateUsername.",
+    "status": "PASS"
+  }
+]

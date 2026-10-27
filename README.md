@@ -1,3 +1,13 @@
+# Tài khoản và kiểm thử — cập nhật 27/10/2026
+
+- Đăng ký xong chuyển về Đăng nhập; không tự đăng nhập.
+- Hỗ trợ PostgreSQL qua `DATABASE_URL`. Chưa đặt biến này thì vẫn dùng SQLite, chưa bảo đảm lưu lâu dài trên Render.
+- [Cấu hình lưu tài khoản và chuyển dữ liệu cũ](docs/ACCOUNT_STORAGE.md).
+- [Báo cáo Buổi 9 / 9B](docs/testing/REPORT.md): 24 ca chức năng + 3 ca adapter mock đạt; 4 unit test cảm biến và 2 ca JS đạt; load test local 5 users / 2 phút đạt; AI Acceptance còn 4 điểm chưa đạt.
+- Cấu hình database và sao lưu tài khoản SQLite còn tồn tại **trước khi redeploy** nếu cần giữ tài khoản cũ.
+
+---
+
 # Cập nhật Sensor Logger 26.000 mẫu
 
 Huấn luyện lại ngày 27/10/2026 từ bản ZIP mới đã tăng nhiễu: accuracy test **49,23%**, macro-F1 **49,31%** trên 1.040 mẫu. Nguồn và giới hạn đánh giá được ghi trong [hướng dẫn huấn luyện](SENSOR_LOGGER_TRAINING.md).

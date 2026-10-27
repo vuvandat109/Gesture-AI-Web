@@ -1,0 +1,6002 @@
+[
+  {
+    "user": 4,
+    "iteration": 0,
+    "latency_ms": 17.04555200001323,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 1,
+    "latency_ms": 7.316811000009693,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 2,
+    "latency_ms": 6.627220999973815,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 3,
+    "latency_ms": 5.751285999963329,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 4,
+    "latency_ms": 5.385991999958151,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 5,
+    "latency_ms": 5.857067000022198,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 6,
+    "latency_ms": 7.561247000012372,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 7,
+    "latency_ms": 19.509185999993406,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 8,
+    "latency_ms": 12.288073999968674,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 9,
+    "latency_ms": 20.584474999964186,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 10,
+    "latency_ms": 9.997930999986693,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 11,
+    "latency_ms": 5.461319999994885,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 12,
+    "latency_ms": 6.80452200003856,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 13,
+    "latency_ms": 9.041658999990432,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 14,
+    "latency_ms": 4.377062000003207,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 15,
+    "latency_ms": 4.55181399996718,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 16,
+    "latency_ms": 6.867750000026263,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 17,
+    "latency_ms": 5.844062999983635,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 18,
+    "latency_ms": 7.027190000030714,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 19,
+    "latency_ms": 9.495050999987598,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 20,
+    "latency_ms": 5.5046470000092995,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 21,
+    "latency_ms": 8.57483999999431,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 22,
+    "latency_ms": 6.216647000030662,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 23,
+    "latency_ms": 8.314797000025465,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 24,
+    "latency_ms": 7.043164000037905,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 25,
+    "latency_ms": 10.177199999986897,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 26,
+    "latency_ms": 8.640527000011389,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 27,
+    "latency_ms": 7.46714899997869,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 28,
+    "latency_ms": 10.96025900000086,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 29,
+    "latency_ms": 9.619309000015619,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 30,
+    "latency_ms": 7.3783680000474305,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 31,
+    "latency_ms": 6.569998000031774,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 32,
+    "latency_ms": 7.239629000025616,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 33,
+    "latency_ms": 7.204798000032042,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 34,
+    "latency_ms": 9.448347000045487,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 35,
+    "latency_ms": 7.118004999995264,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 36,
+    "latency_ms": 9.833710000009432,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 37,
+    "latency_ms": 6.3046309999776895,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 38,
+    "latency_ms": 10.152659000027597,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 39,
+    "latency_ms": 6.539212000006955,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 40,
+    "latency_ms": 9.693117999972856,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 41,
+    "latency_ms": 6.896170000004531,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 42,
+    "latency_ms": 7.355028000006314,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 43,
+    "latency_ms": 7.860208000010971,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 44,
+    "latency_ms": 6.628122999984498,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 45,
+    "latency_ms": 7.818936999967718,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 46,
+    "latency_ms": 8.409956999969381,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 47,
+    "latency_ms": 5.178297999975712,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 48,
+    "latency_ms": 6.144169999970472,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 49,
+    "latency_ms": 7.450794999954269,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 50,
+    "latency_ms": 10.559990000047037,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 51,
+    "latency_ms": 7.659782999951403,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 52,
+    "latency_ms": 10.392717999991419,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 53,
+    "latency_ms": 13.60143900001276,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 54,
+    "latency_ms": 8.20863499995994,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 55,
+    "latency_ms": 11.871896999991804,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 56,
+    "latency_ms": 6.116528999996262,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 57,
+    "latency_ms": 7.178323999994518,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 58,
+    "latency_ms": 10.642354999959025,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 59,
+    "latency_ms": 11.963186000002679,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 60,
+    "latency_ms": 3.967472999988786,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 61,
+    "latency_ms": 6.045705000019552,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 62,
+    "latency_ms": 4.441973000041344,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 63,
+    "latency_ms": 6.119828999999299,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 64,
+    "latency_ms": 9.835086999999021,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 65,
+    "latency_ms": 8.68422600001395,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 66,
+    "latency_ms": 6.265764000033869,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 67,
+    "latency_ms": 6.848947999969823,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 68,
+    "latency_ms": 7.4889150000103655,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 69,
+    "latency_ms": 6.6595440000014605,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 70,
+    "latency_ms": 8.875874000011663,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 71,
+    "latency_ms": 5.878087999974468,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 72,
+    "latency_ms": 5.835385000011684,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 73,
+    "latency_ms": 7.054871999969237,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 74,
+    "latency_ms": 6.6265599999724145,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 75,
+    "latency_ms": 7.663547999982256,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 76,
+    "latency_ms": 6.64450599998645,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 77,
+    "latency_ms": 6.879632999982732,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 78,
+    "latency_ms": 6.194032999985666,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 79,
+    "latency_ms": 7.627894999984619,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 80,
+    "latency_ms": 14.332165999974222,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 81,
+    "latency_ms": 7.707653000011305,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 82,
+    "latency_ms": 5.288259999986167,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 83,
+    "latency_ms": 6.179732000020977,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 84,
+    "latency_ms": 7.061958000008417,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 85,
+    "latency_ms": 6.617727999980616,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 86,
+    "latency_ms": 6.722792999994454,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 87,
+    "latency_ms": 13.408649999973932,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 88,
+    "latency_ms": 11.931775000050493,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 89,
+    "latency_ms": 13.963798000020233,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 90,
+    "latency_ms": 4.68938699998489,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 91,
+    "latency_ms": 10.804134000011345,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 92,
+    "latency_ms": 5.29568100000688,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 93,
+    "latency_ms": 9.025753999992503,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 94,
+    "latency_ms": 9.88318699995716,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 95,
+    "latency_ms": 4.1810929999996915,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 96,
+    "latency_ms": 4.41872900000817,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 97,
+    "latency_ms": 6.261343000005581,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 98,
+    "latency_ms": 4.582209999966835,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 99,
+    "latency_ms": 3.252995999957875,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 100,
+    "latency_ms": 9.879905999980565,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 101,
+    "latency_ms": 9.30434599996488,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 102,
+    "latency_ms": 5.624994000015704,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 103,
+    "latency_ms": 6.414592999988145,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 104,
+    "latency_ms": 15.440413000021636,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 105,
+    "latency_ms": 4.208969000046636,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 106,
+    "latency_ms": 10.19663900001433,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 107,
+    "latency_ms": 15.021455999999489,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 108,
+    "latency_ms": 5.950040000016088,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 109,
+    "latency_ms": 9.707097999978487,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 110,
+    "latency_ms": 4.707354000004216,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 58.71,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 111,
+    "latency_ms": 9.883657999978368,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 112,
+    "latency_ms": 7.869877000018732,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 78.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 113,
+    "latency_ms": 6.3871170000311395,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 114,
+    "latency_ms": 6.4465550000250005,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 60.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 115,
+    "latency_ms": 4.527940000002673,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.01,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 116,
+    "latency_ms": 4.589495999994142,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 91.77,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 117,
+    "latency_ms": 5.043694999983472,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.49,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 118,
+    "latency_ms": 9.650109000006069,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 50.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 4,
+    "iteration": 119,
+    "latency_ms": 5.588450999994166,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 0,
+    "latency_ms": 21.934712000017953,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 1,
+    "latency_ms": 7.358006999993449,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 2,
+    "latency_ms": 10.716323999986344,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 3,
+    "latency_ms": 13.142271999981858,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 4,
+    "latency_ms": 4.4220429999768385,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 5,
+    "latency_ms": 4.24058599998034,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 6,
+    "latency_ms": 7.508819000008771,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 7,
+    "latency_ms": 18.81787299998905,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 8,
+    "latency_ms": 9.052514000018164,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 9,
+    "latency_ms": 26.25638000000663,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 10,
+    "latency_ms": 9.965723000050275,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 11,
+    "latency_ms": 5.380095000020901,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 12,
+    "latency_ms": 9.824895999997807,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 13,
+    "latency_ms": 5.729002999999011,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 14,
+    "latency_ms": 11.858988000028603,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 15,
+    "latency_ms": 4.693624000026375,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 16,
+    "latency_ms": 4.425063000041973,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 17,
+    "latency_ms": 3.7655959999938204,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 18,
+    "latency_ms": 4.796525000017482,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 19,
+    "latency_ms": 11.851175999993302,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 20,
+    "latency_ms": 8.498166999970636,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 21,
+    "latency_ms": 10.636216000023069,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 22,
+    "latency_ms": 7.862710999972933,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 23,
+    "latency_ms": 10.629246000007697,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 24,
+    "latency_ms": 15.378340999973261,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 25,
+    "latency_ms": 4.9791129999903205,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 26,
+    "latency_ms": 8.230959000002258,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 27,
+    "latency_ms": 5.498333999980787,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 28,
+    "latency_ms": 6.289254000023448,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 29,
+    "latency_ms": 5.71591499999613,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 30,
+    "latency_ms": 3.8202980000505704,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 31,
+    "latency_ms": 3.771064999966711,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 32,
+    "latency_ms": 7.883362000029592,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 33,
+    "latency_ms": 5.848535000041011,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 34,
+    "latency_ms": 6.364710000013929,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 35,
+    "latency_ms": 10.41695899999695,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 36,
+    "latency_ms": 6.532435999986319,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 37,
+    "latency_ms": 8.0649089999838,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 38,
+    "latency_ms": 8.19947599995885,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 39,
+    "latency_ms": 11.66141700002754,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 40,
+    "latency_ms": 15.157461999990574,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 41,
+    "latency_ms": 5.285393000008298,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 42,
+    "latency_ms": 5.837622999990799,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 43,
+    "latency_ms": 5.183584999997493,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 44,
+    "latency_ms": 7.694384000046739,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 45,
+    "latency_ms": 5.439481999985674,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 46,
+    "latency_ms": 9.424346999992395,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 47,
+    "latency_ms": 5.631194999978106,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 48,
+    "latency_ms": 5.62621799997487,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 49,
+    "latency_ms": 7.218366999950376,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 50,
+    "latency_ms": 8.692519000021548,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 51,
+    "latency_ms": 7.581257000026653,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 52,
+    "latency_ms": 6.744494000031409,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 53,
+    "latency_ms": 8.524760999989667,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 54,
+    "latency_ms": 15.015307999988181,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 55,
+    "latency_ms": 16.43477800001847,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 56,
+    "latency_ms": 5.796201999999084,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 57,
+    "latency_ms": 5.728448000013486,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 58,
+    "latency_ms": 5.335118999994393,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 59,
+    "latency_ms": 4.744362999986151,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 60,
+    "latency_ms": 6.320090000031087,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 61,
+    "latency_ms": 6.179953000014393,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 62,
+    "latency_ms": 11.302778000015223,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 63,
+    "latency_ms": 6.1858259999780785,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 64,
+    "latency_ms": 8.052190999990216,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 65,
+    "latency_ms": 5.961180000042532,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 66,
+    "latency_ms": 10.559682999996767,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 67,
+    "latency_ms": 14.33988200000158,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 68,
+    "latency_ms": 10.685168999998496,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 69,
+    "latency_ms": 5.971896999994897,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 70,
+    "latency_ms": 9.398087000022315,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 71,
+    "latency_ms": 6.5404529999568695,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 72,
+    "latency_ms": 4.380582000010236,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 73,
+    "latency_ms": 9.633398999994824,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 74,
+    "latency_ms": 6.903909000016029,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 75,
+    "latency_ms": 4.916702000002715,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 76,
+    "latency_ms": 6.161351000002924,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 77,
+    "latency_ms": 4.8046570000224165,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 78,
+    "latency_ms": 4.929797000045255,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 79,
+    "latency_ms": 5.5393029999777355,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 80,
+    "latency_ms": 6.889196999964042,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 81,
+    "latency_ms": 7.466993000036837,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 82,
+    "latency_ms": 6.4721129999725235,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 83,
+    "latency_ms": 7.236783999985619,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 84,
+    "latency_ms": 7.452196000031108,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 85,
+    "latency_ms": 7.374556999991455,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 86,
+    "latency_ms": 6.248309000000063,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 87,
+    "latency_ms": 13.581674999954885,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 88,
+    "latency_ms": 12.428596000006564,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 89,
+    "latency_ms": 15.255104999994273,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 90,
+    "latency_ms": 5.446086000006289,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 91,
+    "latency_ms": 6.518666999966172,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 92,
+    "latency_ms": 8.603282000024137,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 93,
+    "latency_ms": 4.9075080000307025,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 94,
+    "latency_ms": 6.423782000013034,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 95,
+    "latency_ms": 7.546396000009281,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 96,
+    "latency_ms": 5.671444000029169,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 97,
+    "latency_ms": 5.090062000022044,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 98,
+    "latency_ms": 5.15290499998855,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 99,
+    "latency_ms": 3.7284129999761717,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 100,
+    "latency_ms": 7.323787000018456,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 101,
+    "latency_ms": 7.369535000009364,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 102,
+    "latency_ms": 7.668260000002647,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 103,
+    "latency_ms": 7.633494000003793,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 104,
+    "latency_ms": 10.68563000001177,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 105,
+    "latency_ms": 9.999524000022575,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 106,
+    "latency_ms": 12.649812000006477,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 107,
+    "latency_ms": 9.32122899996557,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 108,
+    "latency_ms": 13.429596000037236,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 109,
+    "latency_ms": 6.072805000030712,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 110,
+    "latency_ms": 4.908775999979298,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.46,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 111,
+    "latency_ms": 9.294495000006009,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 43.33,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 112,
+    "latency_ms": 9.876161999955002,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.5,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 113,
+    "latency_ms": 4.291169999987687,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 80.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 114,
+    "latency_ms": 5.812831999946866,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.6,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 115,
+    "latency_ms": 5.337206999968203,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 116,
+    "latency_ms": 4.439945000001444,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 57.14,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 117,
+    "latency_ms": 4.834231000018008,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.54,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 118,
+    "latency_ms": 6.442655000000741,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 76.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 0,
+    "iteration": 119,
+    "latency_ms": 5.683586000031937,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 49.68,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 0,
+    "latency_ms": 17.751836000002186,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 1,
+    "latency_ms": 12.77563100001089,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 2,
+    "latency_ms": 9.935414000040055,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 3,
+    "latency_ms": 13.883642999985568,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 4,
+    "latency_ms": 5.28586500001893,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 5,
+    "latency_ms": 4.799168999966241,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 6,
+    "latency_ms": 4.489902999978312,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 7,
+    "latency_ms": 14.530557999989924,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 8,
+    "latency_ms": 9.364143999960106,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 9,
+    "latency_ms": 21.381113999950685,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 10,
+    "latency_ms": 10.142629000029046,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 11,
+    "latency_ms": 11.29522700000507,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 12,
+    "latency_ms": 6.912080999995851,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 13,
+    "latency_ms": 9.291961999963405,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 14,
+    "latency_ms": 6.693478999977742,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 15,
+    "latency_ms": 4.418923000002906,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 16,
+    "latency_ms": 4.588043000012476,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 17,
+    "latency_ms": 4.621407999991334,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 18,
+    "latency_ms": 5.269752999993216,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 19,
+    "latency_ms": 16.958703999989666,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 20,
+    "latency_ms": 7.094188999985818,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 21,
+    "latency_ms": 6.086976000005961,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 22,
+    "latency_ms": 8.600152000042272,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 23,
+    "latency_ms": 8.528782999974283,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 24,
+    "latency_ms": 8.257042000025194,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 25,
+    "latency_ms": 9.61023499996827,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 26,
+    "latency_ms": 6.738590999987082,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 27,
+    "latency_ms": 5.421975999979622,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 28,
+    "latency_ms": 7.447544999990896,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 29,
+    "latency_ms": 6.078188000003593,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 30,
+    "latency_ms": 6.697230000042964,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 31,
+    "latency_ms": 5.2585959999760234,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 32,
+    "latency_ms": 13.796872000000349,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 33,
+    "latency_ms": 9.705305000011322,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 34,
+    "latency_ms": 3.69406199996547,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 35,
+    "latency_ms": 17.67581000001428,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 36,
+    "latency_ms": 5.097508000005746,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 37,
+    "latency_ms": 4.676708000033614,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 38,
+    "latency_ms": 6.843645999992987,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 39,
+    "latency_ms": 4.797786999972686,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 40,
+    "latency_ms": 12.71719800001847,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 41,
+    "latency_ms": 9.763856000006399,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 42,
+    "latency_ms": 7.49059299999999,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 43,
+    "latency_ms": 7.675771000037912,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 44,
+    "latency_ms": 5.953083000008519,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 45,
+    "latency_ms": 9.43356599998424,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 46,
+    "latency_ms": 5.69093699999712,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 47,
+    "latency_ms": 9.492317000024286,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 48,
+    "latency_ms": 4.876348000038888,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 49,
+    "latency_ms": 11.977025999954094,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 50,
+    "latency_ms": 3.860112000040772,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 51,
+    "latency_ms": 5.067494999991595,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 52,
+    "latency_ms": 4.324373999963882,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 53,
+    "latency_ms": 13.99142899998651,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 54,
+    "latency_ms": 15.575280999996721,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 55,
+    "latency_ms": 8.22449399998959,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 56,
+    "latency_ms": 7.302104999951098,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 57,
+    "latency_ms": 5.044580000003407,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 58,
+    "latency_ms": 10.012237999944773,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 59,
+    "latency_ms": 8.028981999984808,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 60,
+    "latency_ms": 4.317990000004102,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 61,
+    "latency_ms": 6.438092999985656,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 62,
+    "latency_ms": 8.65496799997345,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 63,
+    "latency_ms": 9.749259999978221,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 64,
+    "latency_ms": 7.168003000003864,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 65,
+    "latency_ms": 5.212722999999642,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 66,
+    "latency_ms": 5.014501000005112,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 67,
+    "latency_ms": 14.125746999980038,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 68,
+    "latency_ms": 10.538472999996884,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 69,
+    "latency_ms": 4.49139599999171,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 70,
+    "latency_ms": 8.221719999994548,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 71,
+    "latency_ms": 6.328147000033368,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 72,
+    "latency_ms": 4.221598000015092,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 73,
+    "latency_ms": 10.508263000019724,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 74,
+    "latency_ms": 12.064381000016056,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 75,
+    "latency_ms": 5.749397999977646,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 76,
+    "latency_ms": 4.508314999952745,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 77,
+    "latency_ms": 5.808775999980753,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 78,
+    "latency_ms": 5.794584999989638,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 79,
+    "latency_ms": 5.978400999993028,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 80,
+    "latency_ms": 5.225585999994564,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 81,
+    "latency_ms": 11.276155000018662,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 82,
+    "latency_ms": 5.356704999996964,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 83,
+    "latency_ms": 4.385160000026644,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 84,
+    "latency_ms": 7.122870999978659,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 85,
+    "latency_ms": 7.647124000015992,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 86,
+    "latency_ms": 6.029802999989897,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 87,
+    "latency_ms": 10.266532000002826,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 88,
+    "latency_ms": 9.435508000024129,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 89,
+    "latency_ms": 7.380090000026485,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 90,
+    "latency_ms": 6.655222999995658,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 91,
+    "latency_ms": 5.006664000006822,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 92,
+    "latency_ms": 7.450043000005735,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 93,
+    "latency_ms": 6.545736999953533,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 94,
+    "latency_ms": 6.251597999948899,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 95,
+    "latency_ms": 7.306381999967471,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 96,
+    "latency_ms": 7.566899999972065,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 97,
+    "latency_ms": 5.934971999977279,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 98,
+    "latency_ms": 5.904046000011931,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 99,
+    "latency_ms": 5.749049000030482,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 100,
+    "latency_ms": 7.481654999992315,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 101,
+    "latency_ms": 6.588706000002276,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 102,
+    "latency_ms": 9.447685999987243,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 103,
+    "latency_ms": 9.423290000029283,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 104,
+    "latency_ms": 9.345625999969798,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 105,
+    "latency_ms": 6.9400130000190074,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 106,
+    "latency_ms": 13.387093999995159,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 107,
+    "latency_ms": 7.308314999988852,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 108,
+    "latency_ms": 7.957670999985567,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 109,
+    "latency_ms": 6.898261000003458,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 110,
+    "latency_ms": 7.21993500002327,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 45.87,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 111,
+    "latency_ms": 6.902176000039617,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 52.24,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 112,
+    "latency_ms": 6.463199999984681,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 54.67,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 113,
+    "latency_ms": 5.554260999986127,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 79.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 114,
+    "latency_ms": 6.188324999982342,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 68.82,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 115,
+    "latency_ms": 5.679626000016924,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 73.42,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 116,
+    "latency_ms": 5.576308000001973,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 93.13,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 117,
+    "latency_ms": 6.336199000031684,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 94.44,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 118,
+    "latency_ms": 7.510042000035355,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.09,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 2,
+    "iteration": 119,
+    "latency_ms": 7.264720000023317,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 65.08,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 0,
+    "latency_ms": 22.026960000005147,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 1,
+    "latency_ms": 10.117680000007567,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 2,
+    "latency_ms": 6.748814999980368,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 3,
+    "latency_ms": 5.727275000026566,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 4,
+    "latency_ms": 7.783894999988661,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 5,
+    "latency_ms": 5.029137999997602,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 6,
+    "latency_ms": 7.188564000045972,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 7,
+    "latency_ms": 22.70924900000182,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 8,
+    "latency_ms": 9.401437999997597,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 9,
+    "latency_ms": 26.35399299998653,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 10,
+    "latency_ms": 5.182158000025083,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 11,
+    "latency_ms": 8.755416999974841,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 12,
+    "latency_ms": 5.371832999969683,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 13,
+    "latency_ms": 10.382742999979655,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 14,
+    "latency_ms": 12.872060000006513,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 15,
+    "latency_ms": 6.99075699998275,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 16,
+    "latency_ms": 4.369194999981119,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 17,
+    "latency_ms": 4.919790999963425,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 18,
+    "latency_ms": 4.878916999984995,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 19,
+    "latency_ms": 7.907798000019284,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 20,
+    "latency_ms": 6.241242999976748,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 21,
+    "latency_ms": 4.92475400000103,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 22,
+    "latency_ms": 10.538192000012714,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 23,
+    "latency_ms": 10.434630000020206,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 24,
+    "latency_ms": 8.623555999974997,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 25,
+    "latency_ms": 8.200649000002613,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 26,
+    "latency_ms": 6.061493000004248,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 27,
+    "latency_ms": 6.010378000041783,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 28,
+    "latency_ms": 8.048803999997745,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 29,
+    "latency_ms": 10.063783000020976,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 30,
+    "latency_ms": 5.181917000015801,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 31,
+    "latency_ms": 5.7574209999984305,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 32,
+    "latency_ms": 10.283246000028612,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 33,
+    "latency_ms": 7.298059999982343,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 34,
+    "latency_ms": 5.258696999987933,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 35,
+    "latency_ms": 18.399880999993456,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 36,
+    "latency_ms": 5.7779509999704715,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 37,
+    "latency_ms": 3.8492799999971794,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 38,
+    "latency_ms": 6.750279000016235,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 39,
+    "latency_ms": 9.7529039999813,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 40,
+    "latency_ms": 16.064516999961143,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 41,
+    "latency_ms": 8.832864999988033,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 42,
+    "latency_ms": 4.100199999982124,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 43,
+    "latency_ms": 9.497304999968037,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 44,
+    "latency_ms": 5.486550999989959,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 45,
+    "latency_ms": 4.713503000004948,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 46,
+    "latency_ms": 5.812647000027482,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 47,
+    "latency_ms": 7.002023999973517,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 48,
+    "latency_ms": 5.0042009999629045,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 49,
+    "latency_ms": 7.256974000029004,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 50,
+    "latency_ms": 7.998982000003707,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 51,
+    "latency_ms": 7.587800999999672,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 52,
+    "latency_ms": 6.615284000019983,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 53,
+    "latency_ms": 11.772525999958816,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 54,
+    "latency_ms": 10.739618000002338,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 55,
+    "latency_ms": 6.505462000006901,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 56,
+    "latency_ms": 6.334650999974656,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 57,
+    "latency_ms": 6.527474999984406,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 58,
+    "latency_ms": 8.212976999971033,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 59,
+    "latency_ms": 6.316910000009557,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 60,
+    "latency_ms": 6.926341999985652,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 61,
+    "latency_ms": 7.9294290000007095,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 62,
+    "latency_ms": 8.25711200002388,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 63,
+    "latency_ms": 5.802797000001192,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 64,
+    "latency_ms": 11.695437000014408,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 65,
+    "latency_ms": 7.363941999983581,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 66,
+    "latency_ms": 6.067918000042027,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 67,
+    "latency_ms": 12.448336000034033,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 68,
+    "latency_ms": 10.178832999997667,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 69,
+    "latency_ms": 5.960669999979018,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 70,
+    "latency_ms": 10.649911999962569,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 71,
+    "latency_ms": 4.911675000016658,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 72,
+    "latency_ms": 4.721410000001924,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 73,
+    "latency_ms": 12.4636180000266,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 74,
+    "latency_ms": 11.467866999964826,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 75,
+    "latency_ms": 7.845590999977503,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 76,
+    "latency_ms": 6.356021999977202,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 77,
+    "latency_ms": 5.859336000014537,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 78,
+    "latency_ms": 7.425046999969709,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 79,
+    "latency_ms": 16.327724999996462,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 80,
+    "latency_ms": 4.987040000003162,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 81,
+    "latency_ms": 5.523100000004888,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 82,
+    "latency_ms": 5.277117999980874,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 83,
+    "latency_ms": 4.859398000007786,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 84,
+    "latency_ms": 7.6824960000294595,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 85,
+    "latency_ms": 5.336440999997194,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 86,
+    "latency_ms": 7.533036000040738,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 87,
+    "latency_ms": 9.693718999983503,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 88,
+    "latency_ms": 12.30326199998899,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 89,
+    "latency_ms": 14.921046999972987,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 90,
+    "latency_ms": 4.42512799997985,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 91,
+    "latency_ms": 6.638789000021461,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 92,
+    "latency_ms": 6.443776000025991,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 93,
+    "latency_ms": 7.186214000000746,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 94,
+    "latency_ms": 5.712018000053831,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 95,
+    "latency_ms": 5.412852000006296,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 96,
+    "latency_ms": 4.986876000032225,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 97,
+    "latency_ms": 5.786403000001883,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 98,
+    "latency_ms": 7.105696999985867,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 99,
+    "latency_ms": 5.8758039999702305,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 100,
+    "latency_ms": 6.586500999958389,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 101,
+    "latency_ms": 7.685670000000755,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 102,
+    "latency_ms": 11.717658999998548,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 103,
+    "latency_ms": 8.412496000005376,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 104,
+    "latency_ms": 5.113402000006317,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 105,
+    "latency_ms": 7.319917000017995,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 106,
+    "latency_ms": 9.59017100001347,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 107,
+    "latency_ms": 10.313190999966082,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 108,
+    "latency_ms": 10.88336100002607,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 109,
+    "latency_ms": 6.461166999997658,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 110,
+    "latency_ms": 9.712637000006907,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.92,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 111,
+    "latency_ms": 6.738014999996267,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.95,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 112,
+    "latency_ms": 6.097822000015185,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 61.79,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 113,
+    "latency_ms": 4.641026000001602,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 69.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 114,
+    "latency_ms": 6.148300999996081,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 75.96,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 115,
+    "latency_ms": 5.192187999966791,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 46.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 116,
+    "latency_ms": 4.268126999988908,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 87.15,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 117,
+    "latency_ms": 6.014319000030355,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 67.37,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 118,
+    "latency_ms": 7.98254800002951,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 56.47,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 3,
+    "iteration": 119,
+    "latency_ms": 7.290720000014517,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 72.98,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 0,
+    "latency_ms": 16.52330699999993,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 1,
+    "latency_ms": 11.425106999979562,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 2,
+    "latency_ms": 8.744773999978861,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 3,
+    "latency_ms": 6.08492099996738,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 4,
+    "latency_ms": 4.929910999976528,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 5,
+    "latency_ms": 5.550915000014811,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 6,
+    "latency_ms": 6.798352999965118,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 7,
+    "latency_ms": 17.99404900003765,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 8,
+    "latency_ms": 8.10175800000934,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 9,
+    "latency_ms": 18.938856000033866,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 10,
+    "latency_ms": 6.484200000045348,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 11,
+    "latency_ms": 5.954299999984869,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 12,
+    "latency_ms": 7.450989999995272,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 13,
+    "latency_ms": 6.035139000005074,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 14,
+    "latency_ms": 6.039536000002954,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 15,
+    "latency_ms": 6.286560000035024,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 16,
+    "latency_ms": 7.120358000008764,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 17,
+    "latency_ms": 8.025691999989704,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 18,
+    "latency_ms": 6.896037999979399,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 19,
+    "latency_ms": 7.095651999975416,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 20,
+    "latency_ms": 5.806561999975202,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 21,
+    "latency_ms": 5.293687999994745,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 22,
+    "latency_ms": 6.336782999994739,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 23,
+    "latency_ms": 6.941395000012562,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 24,
+    "latency_ms": 10.843401999977687,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 25,
+    "latency_ms": 12.15228399996704,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 26,
+    "latency_ms": 8.716724999999315,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 27,
+    "latency_ms": 11.858411000048363,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 28,
+    "latency_ms": 7.640895000008641,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 29,
+    "latency_ms": 6.977587999983825,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 30,
+    "latency_ms": 7.4718259999713155,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 31,
+    "latency_ms": 7.466066999995746,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 32,
+    "latency_ms": 7.827629000018987,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 33,
+    "latency_ms": 6.623665999995865,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 34,
+    "latency_ms": 9.117900000035206,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 35,
+    "latency_ms": 13.017323999974906,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 36,
+    "latency_ms": 6.1375900000371075,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 37,
+    "latency_ms": 9.243013999991945,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 38,
+    "latency_ms": 6.4298809999741025,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 39,
+    "latency_ms": 6.577638999999635,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 40,
+    "latency_ms": 17.511372999990726,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 41,
+    "latency_ms": 5.147023000006357,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 42,
+    "latency_ms": 6.67279999998982,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 43,
+    "latency_ms": 8.275558999969235,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 44,
+    "latency_ms": 6.620292000036443,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 45,
+    "latency_ms": 6.9603779999738435,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 46,
+    "latency_ms": 13.256791000003432,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 47,
+    "latency_ms": 10.363444999995863,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 48,
+    "latency_ms": 5.1142339999614705,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 49,
+    "latency_ms": 10.023548999981813,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 50,
+    "latency_ms": 7.281190000014703,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 51,
+    "latency_ms": 5.7885759999862785,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 52,
+    "latency_ms": 5.588731999978336,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 53,
+    "latency_ms": 7.409353000014107,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 54,
+    "latency_ms": 18.273977000035302,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 55,
+    "latency_ms": 5.682229000001371,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 56,
+    "latency_ms": 6.283365000001595,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 57,
+    "latency_ms": 4.228367999985494,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 58,
+    "latency_ms": 10.89279500001794,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 59,
+    "latency_ms": 6.75552500001686,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 60,
+    "latency_ms": 4.775868999956856,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 61,
+    "latency_ms": 7.519280000053641,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 62,
+    "latency_ms": 8.905110999990029,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 63,
+    "latency_ms": 9.362335999981042,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 64,
+    "latency_ms": 11.002252000025692,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 65,
+    "latency_ms": 5.525329000022339,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 66,
+    "latency_ms": 8.510309999962828,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 67,
+    "latency_ms": 5.365036999990025,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 68,
+    "latency_ms": 5.255721000025915,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 69,
+    "latency_ms": 5.82152499998756,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 70,
+    "latency_ms": 8.384339999963686,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 71,
+    "latency_ms": 6.606526999973994,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 72,
+    "latency_ms": 6.1082320000309664,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 73,
+    "latency_ms": 10.719914999981484,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 74,
+    "latency_ms": 5.90415699997493,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 75,
+    "latency_ms": 4.753326000013658,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 76,
+    "latency_ms": 5.365492999999333,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 77,
+    "latency_ms": 6.305386999997609,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 78,
+    "latency_ms": 5.978740999978527,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 79,
+    "latency_ms": 6.850776000021597,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 80,
+    "latency_ms": 14.315777000035723,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 81,
+    "latency_ms": 12.358307999988938,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 82,
+    "latency_ms": 5.529355000021496,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 83,
+    "latency_ms": 7.646958000009363,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 84,
+    "latency_ms": 5.101339000020744,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 85,
+    "latency_ms": 6.490019000011671,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 86,
+    "latency_ms": 6.128702000012254,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 87,
+    "latency_ms": 10.629766999954882,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 88,
+    "latency_ms": 11.05522400001746,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 89,
+    "latency_ms": 7.7242679999471875,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 90,
+    "latency_ms": 5.344246999982261,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 91,
+    "latency_ms": 7.210259000032693,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 92,
+    "latency_ms": 7.985921999988932,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 93,
+    "latency_ms": 8.16952399998172,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 94,
+    "latency_ms": 5.567325000015444,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 95,
+    "latency_ms": 6.4544310000087535,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 96,
+    "latency_ms": 6.465733999959866,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 97,
+    "latency_ms": 6.764723999992839,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 98,
+    "latency_ms": 7.63535599998022,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 99,
+    "latency_ms": 9.869057000003068,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 100,
+    "latency_ms": 5.777674000000843,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 101,
+    "latency_ms": 5.329640000013569,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 102,
+    "latency_ms": 14.273720000005596,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 103,
+    "latency_ms": 5.045171000006121,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 104,
+    "latency_ms": 15.121397999962483,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 105,
+    "latency_ms": 4.762884999991002,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 106,
+    "latency_ms": 8.948224999983267,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 107,
+    "latency_ms": 12.597020000043813,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 108,
+    "latency_ms": 10.145022999950015,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 109,
+    "latency_ms": 6.217507999963345,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 110,
+    "latency_ms": 7.983038999952896,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 42.8,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 111,
+    "latency_ms": 10.643984000012097,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 40.1,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 112,
+    "latency_ms": 5.358221999983925,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 53.91,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 113,
+    "latency_ms": 6.009226000003309,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 82.58,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 114,
+    "latency_ms": 5.471893999981603,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 90.29,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 115,
+    "latency_ms": 5.042667999987316,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 55.7,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 116,
+    "latency_ms": 5.948246000002655,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 89.59,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 117,
+    "latency_ms": 5.527416999996149,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 83.12,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 118,
+    "latency_ms": 8.514520999995057,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 47.78,
+    "fallback": false,
+    "error": null
+  },
+  {
+    "user": 1,
+    "iteration": 119,
+    "latency_ms": 6.396181000013712,
+    "http_status": 200,
+    "schema_valid": true,
+    "confidence": 66.75,
+    "fallback": false,
+    "error": null
+  }
+]

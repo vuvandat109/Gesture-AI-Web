@@ -1,0 +1,34 @@
+{
+  "environment": "local HTTP, Gunicorn 2 workers x 2 threads; SQLite account storage; not Render or PostgreSQL measurements",
+  "python": "3.12.14",
+  "machine": "x86_64",
+  "logical_cpus": 9,
+  "model_sha256": "fd02040384330e95ee15cfd59cf411c30fe9bd526ece3f6c0e7ebf63c0b4a01c",
+  "workload": {
+    "users": 5,
+    "duration_seconds": 120.0,
+    "think_time_seconds": 1,
+    "fixture_count": 50,
+    "fixture_type": "deterministic synthetic 178x6 CSV; no correctness labels",
+    "fixture_size_bytes_min": 11229,
+    "fixture_size_bytes_max": 11275
+  },
+  "requests": 600,
+  "elapsed_seconds": 120.00445265299999,
+  "throughput_requests_per_second": 4.99981447967548,
+  "p50_ms": 6.9963904999781334,
+  "p95_ms": 14.925760049973743,
+  "p99_ms": 20.592441389964044,
+  "error_rate": 0.0,
+  "schema_success_rate": 1.0,
+  "low_confidence_proxy_rate": 0.7,
+  "unknown_rate": null,
+  "fallback_rate": null,
+  "ai_metric_note": "App has no explicit UNCERTAIN/FALLBACK states. Confidence <80% is an analysis proxy only. Not a measured classification error rate.",
+  "criteria": {
+    "p95_ms_less_than": 3000,
+    "error_rate_less_than": 0.01,
+    "schema_success_rate": 1.0
+  },
+  "performance_pass": true
+}

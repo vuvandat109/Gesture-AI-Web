@@ -71,7 +71,7 @@
       <h2 id="authTitle">Đăng nhập Gesture AI</h2><p class="auth-sub">Đăng nhập để tải dữ liệu và chạy mô hình dự đoán.</p>
       <div class="auth-tabs"><button id="loginTab" class="active" type="button">Đăng nhập</button><button id="registerTab" type="button">Đăng ký</button></div>
       <form id="authForm"><label>Tên tài khoản<input id="authUsername" type="text" autocomplete="username" maxlength="32" required placeholder="Nhập tên tài khoản"></label><label>Mật khẩu<input id="authPassword" type="password" autocomplete="current-password" minlength="8" required placeholder="Ít nhất 8 ký tự"></label><button type="submit" class="auth-submit" id="authSubmit">Đăng nhập</button></form>
-      <p id="authError" class="auth-error" aria-live="polite"></p><p class="auth-tip">Lưu ý: tài khoản SQLite trên Render Free có thể mất khi máy chủ khởi động lại.</p>
+      <p id="authError" class="auth-error" aria-live="polite"></p><p class="auth-tip">{{ 'Tài khoản được lưu trong cơ sở dữ liệu riêng.' if account_backend == 'postgresql' else 'Tài khoản đang lưu tạm trên máy chủ. Quản trị viên cần cấu hình nơi lưu lâu dài.' }}</p>
     </div>
   </div>
   <script>window.__INITIAL_USER__ = {{ username|tojson }};</script>

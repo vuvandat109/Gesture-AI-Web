@@ -9,7 +9,35 @@ function authOpen(next){mode=next;$('authOverlay').classList.remove('hidden');$(
 function authTab(tab){mode=tab;$('loginTab').classList.toggle('active',tab==='login');$('registerTab').classList.toggle('active',tab==='register');$('authTitle').textContent=tab==='login'?'Đăng nhập Gesture AI':'Tạo tài khoản Gesture AI';$('authSubmit').textContent=tab==='login'?'Đăng nhập':'Đăng ký';$('authPassword').autocomplete=tab==='login'?'current-password':'new-password'}
 $('loginMenu').onclick=()=>authOpen('login');$('registerMenu').onclick=()=>authOpen('register');$('loginTab').onclick=()=>authTab('login');$('registerTab').onclick=()=>authTab('register');$('closeAuth').onclick=()=>{$('authOverlay').classList.add('hidden')};$('authOverlay').onclick=e=>{if(e.target===$('authOverlay'))$('authOverlay').classList.add('hidden')};
 async function api(path,data,isFile=false){let response=await fetch(path,{method:'POST',headers:{'X-CSRF-Token':csrf,...(isFile?{}:{'Content-Type':'application/json'})},body:isFile?data:JSON.stringify(data)});let result=await response.json().catch(()=>({error:'Không đọc được phản hồi của máy chủ.'}));if(!response.ok)throw new Error(result.error||'Yêu cầu thất bại');if(result.csrf){csrf=result.csrf;document.querySelector('meta[name="csrf-token"]').content=csrf}return result}
-$('authForm').onsubmit=async e=>{e.preventDefault();$('authError').textContent='';try{let result=await api('/api/'+(mode==='login'?'login':'register'),{username:$('authUsername').value,password:$('authPassword').value});setUser(result.username);$('authOverlay').classList.add('hidden');$('authPassword').value='';setMessage('Đăng nhập thành công.',false)}catch(err){$('authError').textContent=err.message}};
+$('authForm').onsubmit=async e=>{
+  e.preventDefault();
+  const submittedMode=mode;
+  $('authError').textContent='';
+  $('authSubmit').disabled=true;
+  try{
+    const result=await api('/api/'+(submittedMode==='login'?'login':'register'),{
+      username:$('authUsername').value,password:$('authPassword').value
+    });
+    $('authPassword').value='';
+    if(submittedMode==='register'){
+      setUser(null);
+      authTab('login');
+      $('authUsername').value=result.username;
+      $('authError').style.color='#348968';
+      $('authError').textContent='Đăng ký thành công. Vui lòng đăng nhập.';
+      $('authPassword').focus();
+    }else{
+      setUser(result.username);
+      $('authOverlay').classList.add('hidden');
+      setMessage('Đăng nhập thành công.',false);
+    }
+  }catch(err){
+    $('authError').style.color='#b54747';
+    $('authError').textContent=err.message;
+  }finally{
+    $('authSubmit').disabled=false;
+  }
+};
 $('logoutMenu').onclick=async()=>{try{await api('/api/logout',{});setUser(null);$('accountMenu').classList.add('hidden');setMessage('Đã đăng xuất.',false)}catch(err){setMessage(err.message,true)}};
 function useFile(file){if(!file)return;if(!/\.(csv|txt|zip)$/i.test(file.name)){setMessage('Chỉ hỗ trợ CSV, TXT hoặc ZIP Sensor Logger.',true);return}if(file.size>5*1024*1024){setMessage('File vượt quá 5 MB.',true);return}selectedFile=file;$('fileLabel').textContent=file.name;$('fileHint').textContent=(file.size/1024).toFixed(1)+' KB';$('uploadedName').textContent='';setMessage('',false);progress(0,'Sẵn sàng','Chọn “Chạy dự đoán” để xử lý file.')}
 $('chooseBtn').onclick=()=>$('fileInput').click();$('dropzone').onclick=()=>$('fileInput').click();$('dropzone').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();$('fileInput').click()}};$('fileInput').onchange=e=>useFile(e.target.files[0]);for(let evt of ['dragenter','dragover'])$('dropzone').addEventListener(evt,e=>{e.preventDefault();$('dropzone').classList.add('drag')});for(let evt of ['dragleave','drop'])$('dropzone').addEventListener(evt,e=>{e.preventDefault();$('dropzone').classList.remove('drag')});$('dropzone').addEventListener('drop',e=>useFile(e.dataTransfer.files[0]));
