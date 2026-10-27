@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "flask",
+  "functions": {
+    "app.py": {
+      "excludeFiles": "{tests/**,docs/**,scripts/**,train_*.py,models/evaluation_split.csv,**/test_*.py}"
+    }
+  }
+}
