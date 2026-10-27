@@ -23,6 +23,12 @@ app.config.update(
     SESSION_COOKIE_SAMESITE='Lax',
     SESSION_COOKIE_SECURE=os.environ.get('COOKIE_SECURE', '0') == '1',
 )
+# Vercel Functions have ephemeral local storage. Keep the homepage and health
+# endpoint usable without PostgreSQL, but fail closed for account operations
+# instead of silently accepting registrations that would be lost on restart.
+VERCEL_DB_UNCONFIGURED = bool(os.environ.get('VERCEL') and not os.environ.get('DATABASE_URL'))
+if VERCEL_DB_UNCONFIGURED:
+    os.environ['DATABASE_PATH'] = '/tmp/gesture-ai-preview-users.db'
 accounts = AccountStore()
 accounts.initialize()
 if os.environ.get('RENDER') and accounts.backend == 'sqlite':
@@ -68,10 +74,12 @@ def index():
 
 @app.get('/api/health')
 def health():
-    return jsonify(status='ok', account_storage=accounts.backend, model_ready=MODEL is not None, model=INFO['model_name'], training_source=INFO['trained_from'], heldout_test_accuracy=INFO.get('heldout_test_accuracy'))
+    return jsonify(status='ok', account_storage='unconfigured' if VERCEL_DB_UNCONFIGURED else accounts.backend, model_ready=MODEL is not None, model=INFO['model_name'], training_source=INFO['trained_from'], heldout_test_accuracy=INFO.get('heldout_test_accuracy'))
 
 @app.post('/api/register')
 def register():
+    if VERCEL_DB_UNCONFIGURED:
+        return jsonify(error='Chưa cấu hình PostgreSQL (DATABASE_URL) trên Vercel. Không thể lưu tài khoản bền vững.'), 503
     data = request.get_json(silent=True)
     if not isinstance(data, dict):
         return jsonify(error='Dữ liệu gửi lên phải là JSON object.'), 400
@@ -92,6 +100,8 @@ def register():
 
 @app.post('/api/login')
 def login():
+    if VERCEL_DB_UNCONFIGURED:
+        return jsonify(error='Chưa cấu hình PostgreSQL (DATABASE_URL) trên Vercel.'), 503
     data = request.get_json(silent=True)
     if not isinstance(data, dict):
         return jsonify(error='Dữ liệu gửi lên phải là JSON object.'), 400
