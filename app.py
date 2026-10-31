@@ -13,6 +13,7 @@ from account_store import AccountStore, DuplicateUsername
 import psycopg
 from sensor_input import read_accelerometer, MAX_UPLOAD_BYTES, ALLOWED_EXTENSIONS
 from sensor_model import read_motion, motion_features
+from tfc_model import prepare_window
 
 ROOT = Path(__file__).resolve().parent
 app = Flask(__name__)
@@ -125,9 +126,10 @@ def predict():
     if Path(uploaded.filename).suffix.lower() not in ALLOWED_EXTENSIONS:
         return jsonify(error='Chỉ hỗ trợ CSV, TXT hoặc ZIP Sensor Logger.'), 400
     try:
-        sensor6 = INFO.get('feature_version') == 'sensor6_v1'
+        tfc = INFO.get('feature_version') == 'tfc6_v1'
+        sensor6 = tfc or INFO.get('feature_version') == 'sensor6_v1'
         reader = read_motion if sensor6 else read_accelerometer
-        extractor = motion_features if sensor6 else features
+        extractor = prepare_window if tfc else (motion_features if sensor6 else features)
         labels = bundle.get('labels', KEY_TO_LABEL)
         values, data_source = reader(uploaded.read(), uploaded.filename)
         probabilities = MODEL.predict_proba(extractor(values).reshape(1,-1))[0]
